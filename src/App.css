@@ -1,0 +1,133 @@
+/* General body styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f0f8ff; /* light vibrant blue */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Login Page */
+.login-page {
+  background: #ffffff; /* white card */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 350px;
+}
+
+.login-page h1 {
+  color: #333333;
+  margin-bottom: 25px;
+}
+
+.login-page input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #87cefa;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+.login-page button {
+  width: 95%;
+  padding: 10px;
+  margin-top: 15px;
+  background: #00bfff; /* bright blue */
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-page button:hover {
+  background: #1e90ff;
+}
+
+/* Dashboard styling */
+.dashboard {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Banner */
+.dashboard img.banner {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+/* Product Cards */
+.product-list, .cart-list, .purchases-list {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.product-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e6f7ff; /* light vibrant blue */
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.product-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+/* Inputs and select inside dashboard */
+.dashboard input, .dashboard select {
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+  border: 1px solid #87cefa;
+  outline: none;
+}
+
+.dashboard button {
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: #00bfff;
+  color: white;
+  font-weight: bold;
+}
+
+.dashboard button:hover {
+  background: #1e90ff;
+}
+
+/* Nav Bar */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #f0f8ff;
+  border-radius: 10px;
+}
